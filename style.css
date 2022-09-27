@@ -40,7 +40,7 @@ header {
     padding-top: 50;
     padding-bottom: 0;
     margin: 0;
-    height: 500px;
+    height: 670px;
     justify-content: space-between;
     align-items: center;
 }
@@ -81,5 +81,32 @@ header {
         margin-left: 50px;
         width: 50%;
         height: 50%;
+}
 
+.secondp {
+    background-color: white;
+    color: rgb(15, 11, 11);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 200px;
+ }
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.infocombined {
+    display: flex;
+}
+
+.infoimage {
+    width: 150px;
+    height: 150px;
+}
+
+.infotext {
+    font-size: 14px;
 }
