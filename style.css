@@ -110,3 +110,81 @@ header {
 .infotext {
     font-size: 14px;
 }
+
+.thirdp {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 200px;
+}
+
+.quotetext {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+   }
+
+.quotename {
+    padding-top: 0;
+    margin-top: 0;
+    color: black;
+    font-style: normal;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.forthp {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 40px;
+}
+
+.actionbox {
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    margin: 50px; 
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.actionhead {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.actiontext {
+    margin-top: 0;
+    padding-top: 0;
+    color: #E5E7EB;
+}
+
+.actionbutton {
+    display: flex;
+    height: 20px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    margin-top:auto; 
+    justify-content: center;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 18px;
+   }
